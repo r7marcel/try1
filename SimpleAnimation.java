@@ -25,6 +25,10 @@ public class SimpleAnimation {
             
             x++;
             y++;
+        // nakazujemy panelowi, aby odświeżył swoją zawartość( można wyświetlić kółko w innym miejscu)
+            
+            panel.repaint();
+      
             
             try {
                 Thread.sleep(50);
